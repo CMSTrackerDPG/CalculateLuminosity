@@ -3,10 +3,8 @@
 ## Getting Started
    1) Login in the vocms061 machine and go in scratch0/Shifter_scripts/JSON.
    
-      ```
-      ssh cctrack@vocms061 -X
-      cd scratch0/Shifter_scripts/JSON
-     ```
+      ```ssh cctrack@vocms061 -X
+      cd scratch0/Shifter_scripts/JSON```
 
    2) Here you find the script *computeLuminosity.sh*. To run over a given run range please submit two arguments: the =firstRun= and the =lastRun=; i.e. the first and last runs you certified during your shift.
    
