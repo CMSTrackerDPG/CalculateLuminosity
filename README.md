@@ -2,7 +2,6 @@
 
 ## Getting Started
    1) Login in the vocms061 machine and go in scratch0/Shifter_scripts/JSON.
-   
      ```
       ssh cctrack@vocms061 -X
       cd scratch0/Shifter_scripts/JSON
