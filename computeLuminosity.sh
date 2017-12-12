@@ -52,7 +52,7 @@ if [[ $# -eq 2 || $# -eq 3 || $# -eq 4 ]]; then #check if we have two or three a
     python dataCertTRK.py TRK_Collisions15_NO_QUALITY.cfg
 
     #produce the configuration with flags on and run it 
-    sed s/QFLAGS_OPTIONS/'Strip:GOOD,Pix:GOOD,Track:GOOD'/g tmp.cfg | sed s/JSON_OPTIONS/JSONFILE=JSON_TRK_Collisions2015_weekly.txt/g > TRK_Collisions15_WITH_QUALITY.cfg
+    sed s/QFLAGS_OPTIONS/'GOOD:GOOD'/g tmp.cfg | sed s/JSON_OPTIONS/JSONFILE=JSON_TRK_Collisions2015_weekly.txt/g > TRK_Collisions15_WITH_QUALITY.cfg
     python dataCertTRK.py TRK_Collisions15_WITH_QUALITY.cfg
  
     #Set environment

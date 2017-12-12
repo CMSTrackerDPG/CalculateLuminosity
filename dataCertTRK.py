@@ -182,7 +182,7 @@ class Certifier():
 
         p = {"class": self.group}
         results = api.json_all(self.query, p)
-        print results
+        #print results
         json_ = {}
         for entry in results:
           try:
